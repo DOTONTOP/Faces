@@ -1,7 +1,21 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
+pcall(function()
+  game.StarterGui:SetCore("SendNotification", {
+    Title = 'Hello Thanks ';
+    Text = 'Join discord';
+    Duration = 20;
+  })
+  if not game.Players.LocalPlayer:IsInGroup(734538459345394856345) then
+    coroutine.resume(coroutine.create(function()
+       wait(5)
+       game.StarterGui:SetCore("SendNotification", {
+        Title = 'join server discord ';
+        Text = 'the link Copied to your keybord';
+        Duration = 10;
+       })
+       setclipboard('https://discord.gg/HRBanbck')
+    end))
+  end
+end)
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
